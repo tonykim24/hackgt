@@ -1,0 +1,23 @@
+.App {
+  background-color: rgb(204, 252, 252);
+  height: 100vh;
+}
+.listingContainer {
+  display: flex;
+  padding-top: 20vh;
+  margin-left: 20vw;
+  width: 60vw;
+}
+.listImgContainer {
+  max-height: 50vh;
+  width: 30vw;
+  margin: 0%;
+}
+.listImg {
+  max-height: 50vh;
+}
+.priceOffer {
+}
+li {
+  list-style-type: none;
+}

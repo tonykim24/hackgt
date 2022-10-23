@@ -1,0 +1,45 @@
+.App {
+  background-color: rgb(204, 252, 252);
+  justify-content: center;
+}
+.feed {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+.post {
+  height: 40vh;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-bottom: 10vh;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10%;
+  border-color: black;
+  background-color: rgb(205, 232, 255);
+  align-items: center;
+}
+.homeContainer {
+  height: fit-content;
+  align-items: center;
+}
+.details {
+  font-size: x-large;
+}
+.thumbnail {
+  max-height: 40vh;
+  max-width: 40vh;
+}
+.postBtn {
+  margin-top: 5vw;
+  margin-right: 10vw;
+  margin-left: 80vw;
+  border: none;
+  background-color: rgb(32, 167, 147);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 32px;
+  color: white;
+  font: bold;
+}
